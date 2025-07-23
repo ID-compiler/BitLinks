@@ -3,6 +3,7 @@ import Image from "next/image";
 import localfont from "next/font/local";
 import Link from "next/link";
 
+
 const rubik = localfont({
   src: "./fonts/Rubik-SemiBold.ttf",
   variable: "--font-rubik",
