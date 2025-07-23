@@ -16,14 +16,14 @@ export const metadata = {
   title: "Bitlinks -URL shortner",
   description: "The best URL shortner in the market",
     icons: {
-    icon: '/favicon.ico', // telling Next.js to use your favicon.ico in the public folder
+    icon: '/favicon.png', // telling Next.js to use your favicon.ico in the public folder
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head><link rel="icon" href="/favicon.ico" /></head>
+      <head><link rel="icon" href="/favicon.png" /></head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
