@@ -34,7 +34,7 @@ const Shorten = () => {
     const result = await res.json();
 
     if (result.success) {
-      const fullLink = `${process.env.NEXT_PUBLIC_HOST || "http://localhost:3000"}/${shorturl}`;
+      const fullLink = `${process.env.NEXT_PUBLIC_HOST || "https://yourbitlinks.netlify.app"}/${shorturl}`;
       setGenerated(fullLink);
       setUrl("");
       setShortUrl("");
@@ -112,7 +112,7 @@ const Shorten = () => {
                   rel="noopener noreferrer"
                   className="text-purple-600 underline hover:text-purple-800 break-all"
                 >
-                  {process.env.NEXT_PUBLIC_HOST || "http://localhost:3000"}/{item.shorturl}
+                  {process.env.NEXT_PUBLIC_HOST || "https://yourbitlinks.netlify.app"}/{item.shorturl}
                 </a>
               </li>
             ))}

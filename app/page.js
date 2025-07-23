@@ -4,7 +4,7 @@ import localfont from "next/font/local";
 import Link from "next/link";
 
 const rubik = localfont({
-  src: "./fonts/Rubik-Semibold.ttf",
+  src: "./fonts/Rubik-SemiBold.ttf",
   variable: "--font-rubik",
   subsets: ["latin"],
 });
